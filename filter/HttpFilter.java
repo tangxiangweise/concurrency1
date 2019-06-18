@@ -2,8 +2,6 @@ package com.mmall.concurrency.filter;
 
 import com.mmall.concurrency.holder.RequestHolder;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
