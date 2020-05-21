@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 标记不推荐写法
  */
-@Target(ElementType.TYPE)
+@Target({ElementType.TYPE,ElementType.FIELD})
 @Retention(RetentionPolicy.SOURCE)
 public @interface NotRecommend {
 
