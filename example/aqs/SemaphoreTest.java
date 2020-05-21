@@ -19,7 +19,7 @@ public class SemaphoreTest {
 	 * tryAcquire(int permits, long timeout, TimeUnit unit) throws
 	 * InterruptedException { };
 	 * //尝试获取permits个许可，若在指定的时间内获取成功，则立即返回true，否则则立即返回false
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {
